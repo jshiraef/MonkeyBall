@@ -1,0 +1,114 @@
+﻿Build started 4/24/2015 10:20:23 PM.
+     1>Project "C:\Users\Shiraef\Documents\web projects\Project\3DEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Shiraef\Downloads\OpenGL\openGL 3D game\Project\gl" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp CheckPoint.cpp Debug.cpp GameData.cpp MainGame.cpp Model.cpp Player.cpp Portal.cpp Scene.cpp Skybox.cpp Sound.cpp Terrain.cpp Texture.cpp Water.cpp
+         Camera.cpp
+     1>Camera.cpp(31): warning C4458: declaration of 'lambda' hides class member
+         c:\users\shiraef\documents\web projects\project\Camera.h(50): note: see declaration of 'Camera::lambda'
+     1>Camera.cpp(90): warning C4458: declaration of 'x' hides class member
+         c:\users\shiraef\documents\web projects\project\Camera.h(46): note: see declaration of 'Camera::x'
+     1>Camera.cpp(90): warning C4458: declaration of 'y' hides class member
+         c:\users\shiraef\documents\web projects\project\Camera.h(46): note: see declaration of 'Camera::y'
+     1>Camera.cpp(90): warning C4458: declaration of 'z' hides class member
+         c:\users\shiraef\documents\web projects\project\Camera.h(46): note: see declaration of 'Camera::z'
+         CheckPoint.cpp
+         Debug.cpp
+         GameData.cpp
+         MainGame.cpp
+     1>MainGame.cpp(174): warning C4458: declaration of 'state' hides class member
+         c:\users\shiraef\documents\web projects\project\MainGame.h(56): note: see declaration of 'MainGame::state'
+         Model.cpp
+     1>Model.cpp(87): warning C4018: '<': signed/unsigned mismatch
+     1>Model.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(202): note: see declaration of 'fopen'
+     1>Model.cpp(20): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(28): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(30): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(33): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(40): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(49): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(51): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(52): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(57): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(64): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(67): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(68): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(69): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(70): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+     1>Model.cpp(74): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1174): note: see declaration of 'fscanf'
+         Player.cpp
+         Portal.cpp
+         Scene.cpp
+         Skybox.cpp
+         Sound.cpp
+         Terrain.cpp
+     1>Terrain.cpp(112): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1722): note: see declaration of 'sprintf'
+     1>Terrain.cpp(113): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(1722): note: see declaration of 'sprintf'
+     1>Terrain.cpp(114): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(202): note: see declaration of 'fopen'
+         Texture.cpp
+         Water.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Shiraef\Documents\web projects\Project\Release\3DEngine.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Shiraef\Documents\web projects\Project\Release\3DEngine.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Shiraef\Documents\web projects\Project\Release\3DEngine.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\CheckPoint.obj
+         Release\Debug.obj
+         Release\GameData.obj
+         Release\MainGame.obj
+         Release\Model.obj
+         Release\Player.obj
+         Release\Portal.obj
+         Release\Scene.obj
+         Release\Skybox.obj
+         Release\Sound.obj
+         Release\Terrain.obj
+         Release\Texture.obj
+         Release\Water.obj
+         Generating code
+         Finished generating code
+         3DEngine.vcxproj -> C:\Users\Shiraef\Documents\web projects\Project\Release\3DEngine.exe
+     1>Done Building Project "C:\Users\Shiraef\Documents\web projects\Project\3DEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.61
